@@ -4,13 +4,13 @@ import csv
 def read_cars_file():
     # Open the cars .csv file for reading
     with open ("cars.csv" , mode ="r") as file:
-        csv_reader = csv . reader ( file )
-        next ( csv_reader ) # Skip the header row
+        #csv_reader = csv . reader ( file )
+        #next ( csv_reader ) # Skip the header row
 
         # Read and print each row in the CSV
-        for row in csv_reader :
-            print ( row )
+        #for row in csv_reader :
+          #  print ( row )
 # Run the function to read the file
-read_cars_file ()
+    read_cars_file ()
 
-# this a test, to see the changes in git or GitHub
+# this code it fucked up
